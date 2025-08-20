@@ -41,6 +41,75 @@
             </li>
         </ul>
      </address>
+
+     <button class="burger-btn" type="button" data-menu-open>
+      <svg class="burger-icon" width="24" height="24">
+       <use href="./images/icons.svg#icon-burger"> </use>
+      </svg>
+     </button>
+    </div>
+    <div class="mobile-menu" data-menu>
+      <div class="container mobile-menu-container">
+        <button class="mobile-menu-close" type="button" data-menu-close>
+          <svg class="btn-close" width="8" height="8">
+            <use href="./images/icons.svg#icon-close"></use>
+            </svg>
+        </button>
+        <nav class="mobile-nav">
+          <ul class="mobile-header-list">
+            <li >
+              <a href="./index.html" class="mobile-header-list-item current"> Studio </a>
+            </li>
+            <li>
+              <a href="" class="mobile-header-list-item"> Portfolio </a>
+            </li>
+            <li>
+              <a href="" class="mobile-header-list-item"> Contacts </a>
+            </li>
+            </ul>
+        </nav>
+
+        <address class="mobile-contacts">
+        <ul class="mobile-contacts-list">
+          <li>
+            <a href="mailto:info@devstudio.com" target="_blank" class="mobile-contacts-list-item"> info@devstudio.com </a>
+          </li>
+          <li>
+            <a href="tel:+110001111111" class="mobile-contacts-list-item"> +11 (000) 111-11-11 </a>
+          </li>
+        </ul>
+      </address>
+      <ul class="mobile-team-icons">
+        <li class="mobile-social-media-icons">
+          <a href="#" class="mobile-team-list-icon" target="_blank">
+            <svg class="mobile-team-icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-instagram"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="mobile-social-media-icons">
+          <a href="" class="mobile-team-list-icon" target="_blank">
+            <svg class="mobile-team-icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-twitter"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="mobile-social-media-icons">
+          <a href="" class="mobile-team-list-icon" target="_blank">
+            <svg class="mobile-team-icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-facebook"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="mobile-social-media-icons">
+          <a href="" class="mobile-team-list-icon" target="_blank">
+            <svg class="mobile-team-icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-linkedin"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+      </div>
     </div>
  </header>
 
@@ -274,7 +343,7 @@
         </ul>
        </div>
       </section>
-     
+   
       <section class="section-portfolio">
         <div class="container container-portfolio">
         <h2 class="our-portfolio"> Our Portfolio </h2>
@@ -419,7 +488,7 @@
       </div>
     </div>
 </footer>
-
+<!-- 
 <div class="backdrop" data-modal>
   <div class="modal">
     <button class="backdrop-close-btn" type="button" data-modal-close>
@@ -492,6 +561,7 @@
 
 </div>
    
-<script src="./js/modal.js"></script>
+<script src="./js/modal.js"></script> -->
+<script src="./js/menu.js"></script>
 </body>
 </html>
