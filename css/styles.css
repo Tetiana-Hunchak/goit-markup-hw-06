@@ -667,6 +667,7 @@ address>.contacts {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    row-gap: 72px;
     padding-left: 0;
 }
 
@@ -782,9 +783,7 @@ img {
         row-gap: 64px;
         column-gap: 24px;
     }
-    .team-name-one {
-        width: calc((100% - 72px) / 2);
-    }
+    
     .section-team {
         padding: 96px 92px;  
     }
