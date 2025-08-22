@@ -622,10 +622,14 @@ address>.contacts {
 
 @media screen and (min-width: 768px) {
     .main-benefits-list {
-        flex-basis: calc((100% - 72px) / 2);
+        flex-basis: calc((100% - 24px) / 2);
     }
     .section-benefits-description{
         text-align: start;
+    }
+    .section-benefits-list{
+        column-gap: 24px;
+        row-gap: 72px;
     }
 }
 
